@@ -1,0 +1,10 @@
+<Context>
+    <Resource name="jdbc/connection"
+          type="javax.sql.DataSource"
+          driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+          url="jdbc:sqlserver://localhost:1433;databaseName=Item;encrypt=true;trustServerCertificate=true;integratedSecurity=true;"
+          maxTotal="20"
+          maxIdle="10"
+          maxWaitMillis="10000"/>
+
+</Context>
